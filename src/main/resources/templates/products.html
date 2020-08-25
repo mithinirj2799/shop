@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <head th:replace="/fragments/head"></head>
 
@@ -22,7 +22,7 @@
                         </p>
                         <h4 th:text="${product.name}"></h4>
                         <div class="desc" th:utext="${product.description}"></div>
-                        <p th:text="'$' + ${product.price}"></p>
+                        <p th:text="'Rs.' + ${product.price}"></p>
                         <div style="position: relative;">
                             <p>
                                 <a class="btn btn-primary addToCart" 

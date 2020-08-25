@@ -7,8 +7,8 @@
     <version>2.1.6.RELEASE</version>
     <relativePath/>
   </parent>
-  <groupId>com.vojislavk</groupId>
-  <artifactId>cmsshoppingcart</artifactId>
+  <groupId>com.nirjharini</groupId>
+  <artifactId>shoppingcart</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>demo</name>
   <description>Demo project for Spring Boot</description>
