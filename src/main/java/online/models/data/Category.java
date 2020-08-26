@@ -7,11 +7,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.Size;
 
-import lombok.Data;
 
 @Entity
 @Table(name="categories")
-@Data
 public class Category {
 
     @Id

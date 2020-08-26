@@ -1,8 +1,5 @@
 package online.models;
 
-import lombok.Data;
-
-@Data
 public class Cart {
 
     private int id;
